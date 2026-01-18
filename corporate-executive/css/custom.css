@@ -1,0 +1,20 @@
+/*Custom Css*/
+
+/*
+Panda Logo White Color Styling
+Makes logos white for transparent headers and dark backgrounds
+*/
+.logo-white img {
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+}
+
+.side-menu .inner-wrapper img[src*="panda-logo"] {
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+}
+
+/*
+... 
+...
+*/
